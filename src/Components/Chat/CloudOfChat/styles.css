@@ -1,0 +1,50 @@
+.cloudChat.me{
+    margin-left: auto;
+    margin-right: 3vw;
+    margin-bottom: 3vw;
+    height: auto;
+    max-width: 60%;
+    z-index: 1;
+    border:2px solid #00a884;
+	border-radius:10px;
+	padding:20px;
+	position:relative;
+    background-color: #00a884;
+    color: #e9edef;
+}
+.cloudChat.me:before {
+	border:23px solid transparent;
+	border-top-color:#00a884;
+	position:absolute;
+	bottom:100%;
+    top: -2px;
+	right:-20px;
+	content:'';
+}
+
+.cloudChat.interlocutor{
+   
+    margin-right: auto;
+    margin-left: 3vw;
+    margin-bottom: 3vw;
+    height: auto;
+    max-width: 60%;
+    z-index: 1;
+    border:2px solid #343f46;
+	border-radius:10px;
+	padding:20px;
+	position:relative;
+    background-color: #343f46;
+    color: #e9edef;
+}
+.cloudChat.interlocutor:before {
+	border:23px solid transparent;
+	border-top-color:#343f46;
+	position:absolute;
+	bottom:100%;
+    top: -2px;
+	left:-20px;
+	content:'';
+}
+
+

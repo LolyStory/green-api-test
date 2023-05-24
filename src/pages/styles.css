@@ -1,0 +1,113 @@
+.LoginWindow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #111b21;
+    font-size: 30pt;
+}
+.inputLogin{
+   
+    align-content: center;
+   color: #d1d7db; 
+   background-color: #2a3942;
+   font-size: 30pt;
+   border: 10px #2a3942 solid;
+   border-radius: 20px;
+   
+}
+.LoginIdInstance{
+    margin: 10px;
+    color: #d1d7db;
+    border: 10px #111b21 solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.LoginApiTokenInstance{
+    margin: 10px;
+    color: #d1d7db;
+    border: 10px 111b21 solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.LoginButton{
+    width: 175px;
+    height: 90px;
+    margin: 30px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60pt;
+    background-color:#008069;
+    color: #f7f8f9;
+    border: 3px rgb(245, 246, 245) solid;
+    border-radius: 30px;
+    font-size: 40pt;
+}
+.textDiv{
+    margin: 10px;
+    color: #d1d7db;
+}
+
+.chat{
+    display: flex;
+  flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.EnterNumberWindow{
+    margin: auto;
+    min-width: 600px;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #222e35;
+    font-size: 30pt;
+    border: 10px #222e35 solid;
+    border-radius: 30px;
+    text-align: center;
+}
+.visible{
+    z-index: 2;
+}
+.invisible{
+    z-index: -1;
+}
+
+.inputPhone{
+   width: 50%;
+   text-align: center;
+   align-content: center;
+   color: #d1d7db; 
+   background-color: #2a3942;
+   font-size: 30pt;
+   border: 10px #2a3942 solid;
+   border-radius: 20px; 
+}
+.PhoneButton{
+    width: 160px;
+    height: 75px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40pt;
+    background-color:#008069;
+    color: #f7f8f9;
+    border: 3px rgb(245, 246, 245) solid;
+    border-radius: 30px;
+    font-size: 30pt;
+}
+
+

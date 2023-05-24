@@ -1,0 +1,59 @@
+.ChatFooter{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #222e35;
+    font-size: 30pt;
+}
+.inputChat{
+   
+    width: 70%;
+    margin: auto;
+    margin-right: 5px;
+    height: 60%;
+   align-content: center;
+   color: #d1d7db; 
+   background-color: #2a3942;
+   font-size: 30pt;
+   border: 10px #2a3942 solid;
+   border-radius: 10px;
+}
+.inputChat::placeholder{
+    
+    align-content: center;
+    color: #d1d7dbb5; 
+    background-color: #2a3942;
+    font-size: 30pt;
+    border: 10px #2a3942 solid;
+    border-radius: 10px;
+ }
+ .inputChat::placeholder{
+    
+    align-content: center;
+    color: #d1d7dbb5; 
+    background-color: #2a3942;
+    font-size: 30pt;
+    border: 10px #2a3942 solid;
+    border-radius: 10px;
+ }
+ .inputChat:focus {
+    outline:none;
+  }
+  .buttonChat{
+    margin: auto;
+    margin-left: 5px;
+    width: 175px;
+    height: 90px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60pt;
+    background-color:#d1d7dbb5;
+    color: #2a3942;
+    border: 3px #2a3942 solid;
+    border-radius: 30px;
+    font-size: 40pt;
+  }

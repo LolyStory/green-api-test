@@ -1,0 +1,25 @@
+.ChatWindow{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    background-color: #111b21;
+    font-size: 30pt;
+}
+.scroleble{
+    top: 7%;
+    width: 100vw;
+    height: 75vh;
+    overflow: auto;
+}
+.ChatWindow::after{
+    top: 10%;
+    width: 100vw;
+    height: 75vh;
+    position: absolute;
+    background-image: url("../../../../public/bg-chat-tile-dark_a4be512e7195b6b733d9110b408f075d.png");
+    opacity: 0.05;
+    content:'';
+}
